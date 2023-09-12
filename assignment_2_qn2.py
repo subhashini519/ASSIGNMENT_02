@@ -7,7 +7,7 @@ def create_asciidict():
     asciidict = {chr(i): i for i in range(97, 123)}
     return asciidict
 
-asciidict = create_ascii_dict()
+asciidict = create_asciidict()
 
 print("Dictionary with ASCII values for alphabets from 'a' to 'z':")
 print(asciidict)
